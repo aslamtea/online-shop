@@ -1,0 +1,84 @@
+.row .gg:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 4);
+    transform: scale(1.02);
+}
+.card p{
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+/* .ucing{
+    list-style-type: none;
+} */
+.hilang{
+    display: none;
+}
+.card{
+    border: none;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.form-control-user {
+    font-size: 1rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+}
+.btn-user {
+    font-size: .8rem;
+    border-radius: 10rem;
+    padding: .75rem 1rem;
+    display: block;
+    width: 100%;
+}
+.hitam{
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1001;
+  }
+  .modal-tukang{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+  }
+  .modal-box {
+    position: absolute;
+    width: 500px;
+    margin-top: 35px;
+    z-index: 1002;
+  }
+  .site-blocks-table td {
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #212529;
+}
+.table th, .table td {
+    padding: 1.50rem;
+}
+.ucing th, .ucing td {
+    padding: 0.4rem;
+    font-size: 12px;
+}
+
+@media (min-width:968px){
+    .eweh{
+        display: none;
+    }
+}
+@media (max-width:968px){
+    .lengit{
+        display: none;
+    }
+}
+
